@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portal Responsi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/" class="nav-logo">AI<span class="gradient-text-emerald">Portal</span></a>
+    </nav>
+    
+    <div class="hero">
+        <div style="text-align: center;">
+            <h1 style="font-size: 3.5rem; margin-bottom: 20px;">Tugas Responsi <span class="gradient-text-emerald">Kecerdasan Buatan</span></h1>
+            <p class="desc-text mb-8">Eksplorasi dua implementasi sistem kecerdasan buatan cerdas untuk memecahkan masalah esensial dunia nyata secara real-time.</p>
+            
+            <div class="features-grid">
+                <a href="/pakar" class="feature-card pakar animate-fade" style="animation-delay: 0.1s;">
+                    <span class="feature-icon">☣️</span>
+                    <h2 class="gradient-text-emerald">Sistem Pakar</h2>
+                    <h3 style="margin: 10px 0;">Klasifikasi Limbah B3</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">Aturan logika berbasis probabilitas heuristik (Forward Chaining) untuk mengidentifikasi bahan berbahaya beracun di lingkungan rumah tangga.</p>
+                </a>
+                
+                <a href="/fuzzy" class="feature-card fuzzy animate-fade" style="animation-delay: 0.2s;">
+                    <span class="feature-icon">🌊</span>
+                    <h2 class="gradient-text-blue">Sistem Fuzzy</h2>
+                    <h3 style="margin: 10px 0;">Peringatan Dini Banjir</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">Inferensi Logika Fuzzy Mamdani adaptif, menggabungkan data tinggi air curah hujan, dan laju secara simultan dalam menentukan status siaga mutlak.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
